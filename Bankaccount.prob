@@ -1,0 +1,25 @@
+public class Bankaccount{
+    public static void main(String args[]){
+        long accountNumber=412621106025L;
+        String UserName="Madhumitha";
+        int Balance=2000;
+        deposit();
+        Withdraw();
+        Bankaccount account=new Bankaccount();
+        System.out.println(accountNumber);
+         System.out.println(UserName);
+          System.out.println(Balance);
+    }
+     static void deposit(){
+        int amount=2500;
+        int deposit=(2000+amount);
+        System.out.println("the deposit amount is:"+deposit);
+    }
+     static void Withdraw(){
+        int amount=2500;
+        int Withdraw=(2000-amount);
+        System.out.println("the Withdraw amount is:"+Withdraw);
+        
+        
+    }
+}
