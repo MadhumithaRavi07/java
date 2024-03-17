@@ -1,0 +1,14 @@
+public class Main{
+    public static void main(String args[]){
+        char val = 'a';
+        if (val == 'a' || val == 'A' || val == 'e' || val == 'E' || val == 'i' || val == 'I' || val == 'o' || val == 'O' || val == 'u' || val == 'U'){
+         System.out.println("it's a vowel");
+        }
+        else
+        {
+            System.out.println("not a vowel");
+        }
+        
+        
+    } 
+}
